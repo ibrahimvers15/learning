@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "/kids-learning-hub/", // Set this to your repository name
+  base: "/learning/", // Set this to your repository name
 })

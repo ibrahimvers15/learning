@@ -22,8 +22,8 @@ An interactive learning website for students in grades 1 to 5, covering subjects
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/YOUR_USERNAME/kids-learning-hub.git
-    cd kids-learning-hub
+    git clone https://github.com/ibrahimvers15/learning.git
+    cd learning
     ```
 
 2.  **Install dependencies:**
@@ -42,7 +42,7 @@ An interactive learning website for students in grades 1 to 5, covering subjects
 This guide will help you deploy your site for free using GitHub Pages.
 
 1.  **Create a new GitHub Repository:**
-    -   Go to [GitHub](https://github.com) and create a new public repository. For this guide, we'll assume it's named `kids-learning-hub`.
+    -   Go to [GitHub](https://github.com) and create a new public repository. For this guide, we'll assume it's named `learning`.
 
 2.  **Push your code to the repository:**
     -   Initialize Git and push your local project to the new repository.
@@ -51,15 +51,15 @@ This guide will help you deploy your site for free using GitHub Pages.
     git add .
     git commit -m "Initial commit"
     git branch -M main
-    git remote add origin https://github.com/YOUR_USERNAME/kids-learning-hub.git
+    git remote add origin https://github.com/ibrahimvers15/learning.git
     git push -u origin main
     ```
 
 3.  **Update `package.json`:**
-    -   Open `package.json` and add a `homepage` field at the top. The URL should follow this format: `https://YOUR_USERNAME.github.io/REPOSITORY_NAME/`.
+    -   Open `package.json` and ensure a `homepage` field exists at the top. The URL should follow this format: `https://YOUR_USERNAME.github.io/REPOSITORY_NAME/`.
     ```json
     {
-      "homepage": "https://YOUR_USERNAME.github.io/kids-learning-hub/",
+      "homepage": "https://ibrahimvers15.github.io/learning/",
       "name": "kids-learning-hub",
       // ... rest of the file
     }
@@ -71,7 +71,7 @@ This guide will help you deploy your site for free using GitHub Pages.
     // ...
     export default defineConfig({
       // ...
-      base: "/kids-learning-hub/", // Must match your repository name
+      base: "/learning/", // Must match your repository name
       // ...
     })
     ```
